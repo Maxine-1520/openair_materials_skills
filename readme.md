@@ -43,7 +43,9 @@ cp -r openair_materials_skills/skills/ .trae/skills/
     对于AlN材料，单目标负样本迭代优化
     ```
     AlInSe3材料没有数据。
-   2. 结果：![xrd_re](assets/xrd_re.png)
+   2. 结果：
+   ![xrd_re](assets/xrd_re.png) 
+   ![xrd_re](assets/xrd_re2.png)
 
 ## 🕵️ 两个过程
 
