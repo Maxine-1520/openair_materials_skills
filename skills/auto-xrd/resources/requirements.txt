@@ -1,0 +1,11 @@
+# Core dependencies for Auto-XRD
+pytorch
+pymatgen
+pymatgen-analysis-diffusion
+mp-api
+pandas
+numpy
+scikit-learn
+pyts
+matplotlib
+python-dotenv

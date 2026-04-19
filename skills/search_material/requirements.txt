@@ -1,0 +1,4 @@
+# Requirements for MP Material Search Skill
+mp-api>=0.37.0
+pymatgen>=2023.0.0
+python-dotenv>=1.0.0

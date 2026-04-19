@@ -1,0 +1,23 @@
+{
+  "skill_name": "mp-material-search",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Find 2D semiconductor materials containing Carbon (C) from Materials Project with band gap between 0.5-2.0 eV",
+      "expected_output": "JSON array of materials with formula, band_gap, and recommendation_score",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Search for piezoelectric 2D semiconductor materials in the Materials Project database",
+      "expected_output": "Materials with has_piezoelectric=True and their piezoelectric_modulus values",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Find Mo-S based 2D semiconductors (molybdenum sulfide) with target band gap around 1.5 eV",
+      "expected_output": "JSON results for Mo-S compounds sorted by recommendation_score",
+      "files": []
+    }
+  ]
+}
