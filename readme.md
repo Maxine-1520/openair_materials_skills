@@ -72,5 +72,5 @@
    3. preparation-recommendation：模型API key、base url、model name
 2. 一些风险命令，需要用户允许
 - 以及模型上下文问题：
-3. ![对于某些材料进行推荐会撑爆模型上下文](assets/context.png)
+3. 对于某些材料进行推荐会撑爆模型上下文 ![context](assets/context.png)
 
