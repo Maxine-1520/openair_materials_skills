@@ -38,12 +38,11 @@ cp -r openair_materials_skills/skills/ .trae/skills/
     ```
    2. 结果：![rec_re](assets/rec_re.png)
 3. xrd计算：XRD谱图训练和推理（xrd-negative-loop）
-   1. 测试输入：
+   1. 测试输入：（AlInSe3材料没有数据。）
     ```plaintext
     对于AlN材料，单目标负样本迭代优化
     ```
-    AlInSe3材料没有数据。
-   2. 结果：
+   2. 结果：正常的失败实验
    ![xrd_re](assets/xrd_re.png) 
    ![xrd_re](assets/xrd_re2.png)
 
