@@ -1,6 +1,6 @@
 # 材料场景工作流拉通——准备skills
 
-## 3个skill
+## 👩‍🔬 3个skill
 
 1. 材料搜索：从Materials Project数据库搜索2D半导体材料（mp-material-search）
    1. 测试输入：
@@ -33,9 +33,9 @@
     对于AlN材料，单目标负样本迭代优化
     ```
     AlInSe3材料没有数据。
-    2. 结果：![xrd_re](assets/xrd_re.png)
+   2. 结果：![xrd_re](assets/xrd_re.png)
 
-## 两个过程
+## 🕵️ 两个过程
 
 ### 1. 独立测试成功 ✅
 
@@ -51,8 +51,8 @@
 1. 对齐各skill输入输出
 2. 测试使用
 
-## 修正日志
-### 1. auto-xrd 修改计划 ⏩
+## 🧑‍🌾 修正日志
+### 1. auto-xrd 修改计划 ✅
 - 合并 xrd-negative-loop + xrd-formula-train-infer 两个skill，去掉交叉引用
 - 移除 .codex/ 目录结构
 - 独立打包为真正的skill，不依赖外部项目
@@ -64,7 +64,7 @@
 2. 改为相对路径或命令行参数
 3. 安装代码到**项目根目录**下的一个独立运行目录
 
-## 待办问题
+## 🤔 待办问题
 - 核心是，要是配置到聊天接口平台，怎么和用户做交互：
 1. API配置等，需要用户提前配置好
    1. mp-material-search：MP_API_KEY
