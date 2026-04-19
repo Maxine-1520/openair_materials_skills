@@ -1,5 +1,15 @@
 # 材料场景工作流拉通——准备skills
 
+## 💫 使用方法
+
+将`skills/`目录下内容，复制到你所使用的agent下的`skills/`目录下。
+
+比如对于trae：
+```bash
+git clone https://github.com/Maxine-1520/openair_materials_skills.git
+cp -r openair_materials_skills/skills/ .trae/skills/
+```
+
 ## 👩‍🔬 3个skill
 
 1. 材料搜索：从Materials Project数据库搜索2D半导体材料（mp-material-search）
