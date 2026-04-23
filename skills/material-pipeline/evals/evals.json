@@ -1,0 +1,26 @@
+{
+  "skill_name": "material-pipeline",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想基于Flux实验设备，制备载流子迁移率高的二维单晶半导体材料",
+      "expected_output": "应该输出：1) 搜索到的材料列表，2) 选中的材料信息（化学式、性质、选择理由），3) 制备参数推荐（设备方法、温度、压力等）",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我找一种适合用CVD制备的2D材料，并推荐制备参数",
+      "expected_output": "应该输出：1) 搜索到的材料列表，2) 选中的CVD兼容材料，3) CVD制备参数推荐",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 3,
+      "prompt": "基于MBE设备，制备高稳定性的二维钙钛矿材料",
+      "expected_output": "应该输出：1) 搜索到的2D钙钛矿材料列表，2) 选中稳定性高的材料，3) MBE制备参数推荐",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}
